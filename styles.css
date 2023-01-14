@@ -1,0 +1,36 @@
+#contenedorPadre {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 300px;
+}
+
+body{
+    background-color: green;
+}
+#card{
+    background-color: white;
+    position: absolute;
+    width: 400px;
+    height: 600px;
+    border-radius: 5%;
+}
+#first{
+    font-size: 60px;
+    position: absolute;
+    left: 50px;
+    top: -50px;
+}
+#second{
+    font-size: 60px;
+    position: absolute;
+    right: 50px;
+    bottom: -50px;
+    transform: rotate(180deg);
+}
+#number{
+    font-size: 75px;
+    position: absolute;
+    left: 40%;
+    top: 15%;
+}
